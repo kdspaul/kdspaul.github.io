@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How Does Push Work"
+title:  "How Does Git-Push Work"
 date:   2021-09-06 16:08:52 -0400
 categories: git git-push
 ---
