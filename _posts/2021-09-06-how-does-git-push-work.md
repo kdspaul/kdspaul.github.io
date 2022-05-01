@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "How Does Git-Push Work"
+title:  "How Does Git Push Work"
 date:   2021-09-06 16:08:52 -0400
 categories: git git-push
 ---
 
 ## We’re going to add details to our intuition about how git push works.
+
+You have most likely used [git push](https://git-scm.com/docs/git-push) to upload your changes to a git server. Maybe you've wondered about what is happening under the covers. How does it actually work? I'm confident that your intuition is correct and the details here would help you cement your intuition and maybe even make you curious about why it could be slow sometimes.
 
 Let’s start with a repo:
 ```
