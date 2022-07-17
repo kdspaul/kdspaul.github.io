@@ -70,11 +70,10 @@ Now, here is what is going to happen when we try and push `topic-2`:
 
 
 
-
+###### Footnotes
 [^1]: If you want to do this example at home, here is how I was creating files ```head -c 1048576 < /dev/urandom  >filename && git add filename && git commit -m filename```
 
-[^2]: We're pushing 2MiB which is what we'd expect
-``` Writing objects: 100% (6/6), 2.00 MiB | 3.79 MiB/s, done. ```
+[^2]: We're pushing 2MiB which is what we'd expect ``` Writing objects: 100% (6/6), 2.00 MiB | 3.79 MiB/s, done. ```
 
 [^3]: If you're following along at home, anytime you're making changes to `main` do it from a different copy of the repo. Otherwise, you will get different results
 
